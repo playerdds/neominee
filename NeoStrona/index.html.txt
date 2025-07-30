@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>NeoMine - Sklep</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background-color: #fff176;
+    }
+    .topbar {
+      background: red;
+      color: white;
+      text-align: center;
+      font-size: 36px;
+      padding: 20px;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 30px;
+    }
+    .rank {
+      background: white;
+      border: 2px solid orange;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .rank h2 {
+      margin: 0 0 10px;
+      color: orange;
+    }
+    .rank .price {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+    .rank input {
+      padding: 10px;
+      width: 80%;
+      max-width: 300px;
+      margin-bottom: 15px;
+    }
+    .rank button {
+      background: red;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .palma {
+      position: fixed;
+      width: 150px;
+      top: 100px;
+    }
+    .palma.left {
+      left: 0;
+    }
+    .palma.right {
+      right: 0;
+      transform: scaleX(-1);
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">NeoMine.pl</div>
+  <img src="https://i.imgur.com/JloQyaO.png" class="palma left">
+  <img src="https://i.imgur.com/JloQyaO.png" class="palma right">
+
+  <div class="container">
+    <div class="rank">
+      <h2>VIP</h2>
+      <div class="price">10 zł</div>
+      <input type="text" placeholder="Twój nick Minecraft">
+      <br><br>
+      <button>Zapłać</button>
+    </div>
+    <div class="rank">
+      <h2>Gracz Premium</h2>
+      <div class="price">12 zł</div>
+      <input type="text" placeholder="Twój nick Minecraft">
+      <br><br>
+      <button>Zapłać</button>
+    </div>
+    <div class="rank">
+      <h2>Pro</h2>
+      <div class="price">20 zł</div>
+      <input type="text" placeholder="Twój nick Minecraft">
+      <br><br>
+      <button>Zapłać</button>
+    </div>
+    <div class="rank">
+      <h2>Neo</h2>
+      <div class="price">30 zł</div>
+      <input type="text" placeholder="Twój nick Minecraft">
+      <br><br>
+      <button>Zapłać</button>
+    </div>
+  </div>
+</body>
+</html>
